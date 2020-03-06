@@ -18,7 +18,7 @@
     </div>
     <div class="field">
       <label class="label">
-       密码
+        Password
       </label>
       <base-input
         v-model="password"

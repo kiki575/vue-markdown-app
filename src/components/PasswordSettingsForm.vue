@@ -1,7 +1,7 @@
 <template>
   <div class="password-settings-form page-form">
     <div class="field">
-      <label class="label">Current Password</label>
+      <label class="label">当前密码</label>
       <base-input
         v-model="currentPassword"
         type="password"
@@ -9,7 +9,7 @@
       />
     </div>
     <div class="field">
-      <label class="label">New Password</label>
+      <label class="label">新密码</label>
       <base-input
         v-model="newPassword"
         type="password"
@@ -33,7 +33,7 @@
         :disabled="loading"
         @click="onSubmit"
       >
-        {{ loading ? 'Saving...' : 'Save' }}
+        {{ loading ? '保存...' : '保存' }}
       </base-button>
     </div>
   </div>

@@ -50,7 +50,7 @@
           theme="borderless"
           @click="editing = false"
         >
-          关闭
+          取消
         </base-button>
       </template>
     </p>

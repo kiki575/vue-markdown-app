@@ -45,7 +45,7 @@
           @click="onReply"
         >
           <i class="fas fa-reply reply-icon"></i>
-          Reply
+          回复
         </base-button>
       </div>
       <div class="action-buttons">

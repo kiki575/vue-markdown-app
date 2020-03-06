@@ -11,7 +11,7 @@
     class="topic-form page-form"
   >
     <div class="field">
-      <label class="label">Title</label>
+      <label class="label">标题</label>
       <base-input
         v-model="title"
         :errors="$v.title"
@@ -21,7 +21,7 @@
       v-if="categoryOptions"
       class="field"
     >
-      <label class="label">Category</label>
+      <label class="label">分类</label>
       <base-select-input
         v-model="category"
         :options="categoryOptions"
@@ -30,7 +30,7 @@
       />
     </div>
     <div class="field">
-      <label class="label">Content</label>
+      <label class="label">内容</label>
       <base-textarea
         v-model="content"
         :errors="$v.content"
@@ -46,7 +46,7 @@
       <base-button
         @click="onSubmit"
       >
-        {{ update ? 'Update' : 'Create' }}
+        {{ update ? '更新' : '创建' }}
       </base-button>
     </div>
   </div>

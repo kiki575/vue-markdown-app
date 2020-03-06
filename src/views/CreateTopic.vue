@@ -2,7 +2,7 @@
   <div class="app-page create-topic-page">
     <div class="page-form-container">
       <h1 class="page-form-title">
-        New Topic
+        新话题
       </h1>
       <topic-form :category-slug="$route.params.categorySlug"/>
     </div>

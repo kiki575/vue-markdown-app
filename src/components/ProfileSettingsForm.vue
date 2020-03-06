@@ -10,14 +10,14 @@
       />
     </div>
     <div class="field">
-      <label class="label">Name</label>
+      <label class="label">用户名</label>
       <base-input
         v-model="name"
         :errors="$v.name"
       />
     </div>
     <div class="field">
-      <label class="label">Email</label>
+      <label class="label">邮箱</label>
       <base-input
         v-model="email"
         :errors="$v.email"
@@ -34,13 +34,13 @@
         v-if="success"
         class="success-message"
       >
-        <i class="fas fa-check"></i> Saved
+        <i class="fas fa-check"></i> 保存
       </span>
       <base-button
         :disabled="loading"
         @click="onSubmit"
       >
-        {{ loading ? 'Saving...' : 'Save' }}
+        {{ loading ? '保存中...' : '保存' }}
       </base-button>
     </div>
   </div>

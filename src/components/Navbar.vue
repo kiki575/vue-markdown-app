@@ -17,7 +17,7 @@
         <base-button
           :to="{ name: 'Login' }"
         >
-          登入
+          登录
         </base-button>
       </template>
     </div>

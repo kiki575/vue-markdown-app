@@ -2,7 +2,7 @@
   <div class="app-page account-page">
     <div class="page-form-container account-settings-form-container">
       <h1 class="page-form-title">
-        Account Settings
+        用户设置
       </h1>
       <base-tabs
         v-model="currentTab"
@@ -28,8 +28,8 @@ export default {
     return {
       currentTab: 'profile',
       options: [
-        { key: 'profile', title: 'Profile' },
-        { key: 'password', title: 'Change Password' }
+        { key: 'profile', title: '基本信息' },
+        { key: 'password', title: '修改密码' }
       ]
     }
   }

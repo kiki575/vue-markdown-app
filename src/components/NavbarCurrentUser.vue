@@ -20,8 +20,8 @@ export default {
   computed: {
     options () {
       return [
-        { key: 'settings', title: 'Settings' },
-        { key: 'logout', title: 'Log out' }
+        { key: 'settings', title: '个人设置' },
+        { key: 'logout', title: '退出登录' }
       ]
     }
   },

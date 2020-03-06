@@ -13,7 +13,7 @@
       :disabled="loading"
       @click="reply"
     >
-      {{ loading ? 'Replying...' : 'Reply' }}
+      {{ loading ? '回复中...' : '回复' }}
     </base-button>
   </div>
 </template>

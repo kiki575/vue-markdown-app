@@ -2,7 +2,7 @@
   <div class="app-page home-page">
     <div class="header">
       <span class="title">
-        分类
+        #话题#  分类
       </span>
       <base-button
         v-if="isLoggedIn && currentUser.can('categories:write')"
